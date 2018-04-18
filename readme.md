@@ -1,16 +1,16 @@
 Hello. This is a readme file for the blog made with Laravel framework by Lushios.
 I used the following setup:
-Project was located in "C://xxamp/htdocs/noname" folder
+Project was located in "*XXAMP_PATH*/htdocs/noname" folder
 
-I added the following lines to "C://xxamp/apache/conf/extra/httpd-vhosts.conf"
+I added the following lines to "*XXAMP_PATH*/apache/conf/extra/httpd-vhosts.conf"
 
 <VirtualHost *:80>
-    DocumentRoot "C:/xampp/htdocs"
+    DocumentRoot "*XXAMP_PATH*/htdocs"
     ServerName localhost
 </VirtualHost>
 
 <VirtualHost *:80>
-    DocumentRoot "C:/xampp/htdocs/noname/public"
+    DocumentRoot "*XXAMP_PATH*/htdocs/noname/public"
     ServerName noname.test
 </VirtualHost>
 
